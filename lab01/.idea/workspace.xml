@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eddafc8c-598a-466a-9f71-c8365c7ee82d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Equation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FirstDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloNameDialog.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloNameDialog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProcessTwoNumbers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShowTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShowTwoNumbers.java" beforeDir="false" />
-    </list>
+    <list default="true" id="eddafc8c-598a-466a-9f71-c8365c7ee82d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,12 +25,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Fuss/Desktop/OOP/lab/IT3103.732874.2023.1.20205219.TrinhPhuQuang/lab01"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fuss/Desktop/OOP/lab/IT3103.732874.2023.1.20205219.TrinhPhuQuang/lab01&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
