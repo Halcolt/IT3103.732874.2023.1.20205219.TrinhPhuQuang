@@ -4,7 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eddafc8c-598a-466a-9f71-c8365c7ee82d" name="Changes" comment="" />
+    <list default="true" id="eddafc8c-598a-466a-9f71-c8365c7ee82d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20205219-TrinhPhuQuang-BC_TH_Lab1.docx" beforeDir="false" afterPath="$PROJECT_DIR$/20205219-TrinhPhuQuang-BC_TH_Lab1.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/20205219-TrinhPhuQuang-BC_TH_Lab1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/20205219-TrinhPhuQuang-BC_TH_Lab1.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1.zip" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/ChoosingOption.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/ChoosingOption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/DayAMonth.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/DayAMonth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/FirstDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/FirstDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/HelloNameDialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/HelloNameDialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/InputFromKeyboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/InputFromKeyboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/ProcessTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/ProcessTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/ShowTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/ShowTwoNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/SortArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/SortArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/IT3103.732874.2023.1.20205219.TrinhPhuQuang.lab1/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab02/~$quirement.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../lab02/~$quirement.docx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
