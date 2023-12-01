@@ -1,3 +1,9 @@
+package hust.soict.dsai.aims;
+
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+import hust.soict.dsai.aims.store.Store;
+import hust.soict.dsai.aims.cart.Cart;
+
 public class Aims {
     public static void main(String[] args) {
         Cart anOrder = new Cart();
@@ -15,5 +21,9 @@ public class Aims {
 
         //anOrder.removeDigitalVideoDisc("Aladin");
         System.out.println("Total cost is: " + anOrder.totalCost());
+
+        anOrder.printOrder();
+        anOrder.searchByTitle("Star Wars");
+        anOrder.searchByID(1);
     }
 }

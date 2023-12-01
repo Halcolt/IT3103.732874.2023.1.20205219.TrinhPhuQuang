@@ -1,3 +1,7 @@
+package hust.soict.dsai.aims.cart;
+
+import hust.soict.dsai.aims.disc.DigitalVideoDisc;
+
 public class Cart {
     // Maximum number of items that can be ordered
     public static final int MAX_NUMBERS_ORDER = 20;
@@ -19,6 +23,17 @@ public class Cart {
         } else {
             System.out.println("The cart is almost full.");
         }
+    }
+
+    public void addDigitalVideoDisc(DigitalVideoDisc[] dvdList) {
+        for (DigitalVideoDisc dvd : dvdList) {
+            addDigitalVideoDisc(dvd);
+        }
+    }
+
+    public void addDigitalVideoDisc(DigitalVideoDisc dvd1, DigitalVideoDisc dvd2) {
+        addDigitalVideoDisc(dvd1);
+        addDigitalVideoDisc(dvd2);
     }
 
     // Method to remove a digital video disc from the cart
@@ -47,5 +62,40 @@ public class Cart {
             total += itemsOrder[i].getCost();
         }
         return total;
+    }
+
+    public void printOrder() {
+        System.out.println("***********************CART***********************");
+        System.out.println("Ordered Items:");
+        for (int i = 0; i < qtyOrdered; i++) {
+            System.out.println((i + 1) + ". " + itemsOrder[i].toString());
+        }
+        System.out.println("Total cost: " + totalCost());
+        System.out.println("***************************************************");
+    }
+    public void searchByTitle (String title) {
+        int match = 0;
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrder[i] != null && itemsOrder[i].getTitle().equals(title)) {
+                System.out.println((i + 1) + ". " + itemsOrder[i].toString());
+                match = 1;
+            }
+        }
+        if (match == 0) {
+            System.out.println("Not found");
+        }
+    }
+
+    public void searchByID (int id){
+        int match = 0;
+        for (int i = 0; i < qtyOrdered; i++) {
+            if (itemsOrder[i] != null && i +1 == id) {
+                System.out.println((i + 1) + ". " + itemsOrder[i].toString());
+                match = 1;
+            }
+        }
+        if (match == 0) {
+            System.out.println("Not found");
+        }
     }
 }
