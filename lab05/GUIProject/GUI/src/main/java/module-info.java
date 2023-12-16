@@ -7,4 +7,5 @@ module hust.soict.dsai {
 
     opens hust.soict.dsai.javafx to javafx.fxml;
     exports hust.soict.dsai.javafx;
+    exports hust.soict.dsai.aims;
 }
