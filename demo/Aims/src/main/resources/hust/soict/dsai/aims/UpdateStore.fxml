@@ -15,21 +15,28 @@
             <Font size="20.0" />
          </font>
       </Text>
-      <ListView fx:id="listView" layoutX="379.0" layoutY="74.0" prefHeight="259.0" prefWidth="200.0" />
-      <Button layoutX="527.0" layoutY="39.0" mnemonicParsing="false" onAction="#deleteAction" text="Delete" />
+      <ListView fx:id="StorelistView" layoutX="379.0" layoutY="74.0" prefHeight="259.0" prefWidth="200.0" />
+
+      <Button  layoutX="527.0" layoutY="39.0" mnemonicParsing="false" onAction="#deleteAction" text="Delete" />
       <Button layoutX="267.0" layoutY="249.0" mnemonicParsing="false" onAction="#addToStoreAction" text="Add to Store" />
       <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backAction" text="Back" />
-      <Text layoutX="172.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên:" />
+
+
       <Text layoutX="16.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Loại hàng" />
-      <Text layoutX="16.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giá:" />
-      <Text layoutX="150.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thể loại:" />
       <ComboBox fx:id="categoryComboBox" layoutX="72.0" layoutY="90.0" prefHeight="26.0" prefWidth="75.0" />
 
+      <Text  layoutX="172.0" layoutY="108.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tên:" />
       <TextField layoutX="201.0" layoutY="90.0" />
-      <TextField layoutX="72.0" layoutY="132.0" prefHeight="26.0" prefWidth="75.0" />
-      <TextField layoutX="202.0" layoutY="133.0" />
+
+      <Text layoutX="16.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Giá:" />
+      <TextField layoutX="72.0" layoutY="125.0" prefHeight="26.0" prefWidth="75.0" />
+
+      <Text layoutX="150.0" layoutY="143.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thể loại:" />
+      <TextField layoutX="202.0" layoutY="125.0" />
+
       <Text layoutX="15.0" layoutY="188.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tác giả/Đạo diễn:" />
       <TextField layoutX="120.0" layoutY="171.0" prefHeight="26.0" prefWidth="231.0" />
+
       <Text layoutX="15.0" layoutY="223.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thời lượng(phút):" />
       <TextField layoutX="120.0" layoutY="206.0" />
    </children>

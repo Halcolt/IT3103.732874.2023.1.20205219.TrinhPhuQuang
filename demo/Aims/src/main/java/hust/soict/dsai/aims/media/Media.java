@@ -32,7 +32,7 @@ public class Media {
         // Create instances of CD, DVD, or Book
         CompactDisc cd = new CompactDisc("Artist", 120, "Director");
         DigitalVideoDisc dvd = new DigitalVideoDisc("DVD Title");
-        Book book = new Book(100,"Book Title", "category",29.99f, Collections.singletonList("Author"));
+        Book book = new Book("Stupid","Book Category", 29.99f, Collections.singletonList("Me"));
 
         // Add them to the mediaList
         mediaList.add(cd);
@@ -72,7 +72,6 @@ public class Media {
 
     public static final Comparator<Media> COMPARE_BY_TITLE_COST = new MediaComparatorByTitleCost();
     public static final Comparator<Media> COMPARE_BY_COST_TITLE = new MediaComparatorByCostTitle();
-
 
     @Override
     public boolean equals(Object obj) {

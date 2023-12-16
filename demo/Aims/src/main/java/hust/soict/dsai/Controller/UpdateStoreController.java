@@ -16,7 +16,7 @@ public class UpdateStoreController {
     private Text updateStoreText;
 
     @FXML
-    private ListView<String> listView;
+    private ListView<String> StorelistView;
 
     @FXML
     private ComboBox<String> categoryComboBox;
@@ -36,8 +36,8 @@ public class UpdateStoreController {
     }
 
     private void updateListView() {
-        listView.getItems().clear();
-        store.getItemsInStore().forEach(media -> listView.getItems().add(media.toString()));
+        StorelistView.getItems().clear();
+        store.getItemsInStore().forEach(media -> StorelistView.getItems().add(media.toString()));
     }
 
     @FXML

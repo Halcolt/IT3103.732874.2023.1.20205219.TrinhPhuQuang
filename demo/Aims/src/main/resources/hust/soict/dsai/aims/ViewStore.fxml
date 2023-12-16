@@ -6,21 +6,22 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hust.soict.dsai.Controller.ViewStoreController">
    <children>
       <Button layoutX="276.0" layoutY="87.0" onAction="#AddToCart" text="Add to Cart" />
       <Button layoutX="14.0" layoutY="14.0" onAction="#Back" text="Back" />
-      <ListView layoutX="34.0" layoutY="87.0" prefHeight="200.0" prefWidth="200.0" />
       <Button layoutX="263.0" layoutY="133.0" onAction="#DeleteFromCart" text="Delete from Cart" />
-      <ListView  layoutX="379.0" layoutY="74.0" prefHeight="259.0" prefWidth="200.0" />
+
+      <ListView fx:id="StorelistView" layoutX="34.0" layoutY="87.0" prefHeight="259.0" prefWidth="200.0" />
+
+      <ListView fx:id="CartlistView" layoutX="378.0" layoutY="87.0" prefHeight="259.0" prefWidth="200.0" />
 
       <Text layoutX="35.0" layoutY="76.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Store">
          <font>
             <Font size="20.0" />
          </font>
       </Text>
-      <Text layoutX="549.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cart">
+      <Text layoutX="541.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cart">
          <font>
             <Font size="20.0" />
          </font>

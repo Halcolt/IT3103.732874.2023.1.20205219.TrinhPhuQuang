@@ -1,6 +1,7 @@
 package hust.soict.dsai.aims;
 
 import hust.soict.dsai.aims.cart.Cart;
+import hust.soict.dsai.aims.media.Book;
 import hust.soict.dsai.aims.media.DigitalVideoDisc;
 import hust.soict.dsai.aims.store.Store;
 import javafx.application.Application;
@@ -10,6 +11,7 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.Collections;
 
 public class Main extends Application {
     private static Stage primaryStage;
@@ -19,12 +21,14 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) {
         Main.primaryStage = primaryStage; // Assign the primaryStage to the static field
-        
+
         //init item in store
         DigitalVideoDisc disc1 = new DigitalVideoDisc("The Lion King", "Animation", "Roger Allers", 87, 19.95f);
         DigitalVideoDisc disc2 = new DigitalVideoDisc("Star Wars", "Science Fiction", "George Lucas", 87, 24.95f);
+        Book book1 = new Book("Stupid","Book Category", 29.99f, Collections.singletonList("Me"));
         store.addMedia(disc1);
         store.addMedia(disc2);
+        store.addMedia(book1);
         System.out.println("Media added to the store.");
 
         loadScene("main.fxml");
