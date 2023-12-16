@@ -1,15 +1,11 @@
 package hust.soict.dsai.swing;
 
-import java.awt.Container;
-import java.awt.GridLayout;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JTextField;
-
-public class SwingAccumulator extends JFrame{// the top level container is framed
+public class SwingAccumulator extends JFrame{// the top level container is frame
 	private JTextField tfInput;
 	private JTextField tfOutput;
 	private int sum = 0;
