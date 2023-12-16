@@ -25,7 +25,7 @@ public class Main extends Application {
         //init item in store
         DigitalVideoDisc disc1 = new DigitalVideoDisc("The Lion King", "Animation", "Roger Allers", 87, 19.95f);
         DigitalVideoDisc disc2 = new DigitalVideoDisc("Star Wars", "Science Fiction", "George Lucas", 87, 24.95f);
-        Book book1 = new Book("Stupid","Book Category", 29.99f, Collections.singletonList("Me"));
+        Book book1 = new Book("Stupid","Book Category", 29.99f, "Me");
         store.addMedia(disc1);
         store.addMedia(disc2);
         store.addMedia(book1);

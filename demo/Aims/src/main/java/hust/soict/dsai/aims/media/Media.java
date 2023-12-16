@@ -25,25 +25,6 @@ public class Media {
         this.cost = getCost();
     }
 
-    // Method to initialize and add instances to mediaList
-    public void initializeMediaList() {
-        List<Media> mediaList = new ArrayList<Media>();
-
-        // Create instances of CD, DVD, or Book
-        CompactDisc cd = new CompactDisc("Artist", 120, "Director");
-        DigitalVideoDisc dvd = new DigitalVideoDisc("DVD Title");
-        Book book = new Book("Stupid","Book Category", 29.99f, Collections.singletonList("Me"));
-
-        // Add them to the mediaList
-        mediaList.add(cd);
-        mediaList.add(dvd);
-        mediaList.add(book);
-
-        for (Media media : mediaList) {
-            System.out.println(media.toString() + "\n");
-        }
-    }
-
     public int getId() {
         return id;
     }
