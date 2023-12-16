@@ -1,0 +1,12 @@
+10
+    When overriding the equals() method of the Object class, you will have to cast the Object parameter obj to the type of Object that you are dealing with. For example, in the Media class, you must cast the Object obj to a Media, and then check the equality of the two objects’ attributes as the above requirements (i.e. title for Media; title and length for Track). If the passing object is not an instance of Media, what happens?
+        If we haven't check if Object instanceof Media before casting, the program throw Run-time error: ClassCastException
+12.
+    What class should implement the Comparable interface ?
+        Only <<Media>> class need "Comparable implementation" cause other class extend from Media.
+    In those classes, how should you implement the compareTo()method be to reflect the ordering that we want?
+        Compare item by title and cost if it appear in Media
+    Can we have two ordering rules of the item (by title then cost and by cost then title) if we use this Comparable interface approach?
+        No, there is only 1 compareTo() method for each class.
+    Suppose the DVDs has a different ordering rule from the other media types, that is by title, then decreasing length, then cost. How would you modify your code to allow this?
+        I override the compareTo() function when comparing DVD
